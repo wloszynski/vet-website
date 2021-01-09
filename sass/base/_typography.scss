@@ -1,0 +1,12 @@
+.heading-4 {
+  font-family: $font-open-sans;
+  font-weight: 400;
+  font-size: 1.9rem;
+
+  &--light {
+    color: lightgrey;
+  }
+  &--dark {
+    color: grey;
+  }
+}
