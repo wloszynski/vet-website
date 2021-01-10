@@ -1,0 +1,22 @@
+.information {
+  display: flex;
+  flex-direction: column;
+  &__types {
+    display: flex;
+  }
+
+  &__type {
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+  }
+
+  &__type--active {
+    background-color: yellow;
+  }
+}
+
+.hidden {
+  opacity: 0;
+  visibility: 0;
+}

@@ -1,0 +1,40 @@
+/* FOOTER */
+.footer {
+  font-style: $font-open-sans;
+  padding: 2rem 3rem;
+  background-color: #37383d;
+}
+
+.footer__nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  font-family: $font-open-sans;
+
+  @include respond(phone) {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+  }
+}
+
+.footer__item {
+  margin-right: 4rem;
+}
+
+.footer__link {
+  font-size: 1.6rem;
+  color: #eee;
+  text-decoration: none;
+}
+
+.footer__copyright {
+  font-size: 1.4rem;
+  color: #aaa;
+  text-align: center;
+}
+
+.footer__copyright .footer__link {
+  font-size: 1.4rem;
+}

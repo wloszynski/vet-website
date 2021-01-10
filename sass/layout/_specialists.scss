@@ -1,7 +1,11 @@
 .specialists {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-top: 2rem;
+
+  @include respond(tab-por) {
+    flex-direction: column;
+  }
 }
 
 .spec {
@@ -13,6 +17,9 @@
   align-content: center;
   align-items: center;
   width: 50%;
+  @include respond(tab-land) {
+    width: 45%;
+  }
 
   &__img {
     img {

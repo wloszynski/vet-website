@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 
   &__content {
     z-index: 10;
@@ -15,11 +16,21 @@
       font-size: 7rem;
       letter-spacing: 1rem;
       font-weight: 300;
+
+      @include respond(tab-port) {
+        font-size: 5rem;
+      }
+      @include respond(phone) {
+        font-size: 4rem;
+      }
     }
 
     h3 {
       font-size: 5rem;
       font-weight: 300;
+      @include respond(tab-port) {
+        font-size: 3rem;
+      }
     }
   }
 }

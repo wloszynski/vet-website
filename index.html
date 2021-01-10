@@ -31,6 +31,32 @@
     <title>BONAWENTURA</title>
   </head>
   <body>
+    <nav class="nav sticky">
+      <ul class="nav__links">
+        <li class="nav__item">
+          <a class="nav__link" href="#service">Usługi</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#specialists">Specjalistki</a>
+        </li>
+
+        <li class="nav__item">
+          <a class="nav__link" href="#openingHours">Godziny otwarcia</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#gallery">Galeria</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#contact">Umów wizytę</a>
+        </li>
+
+        <!-- <li class="nav__item">
+          <a class="nav__link nav__link--btn btn--show-modal" href="contact"
+            >Umów wizytę</a
+          >
+        </li> -->
+      </ul>
+    </nav>
     <header class="header">
       <div class="header__content">
         <h3>Gabinet Weterynaryjny</h3>
@@ -38,8 +64,8 @@
         <h3>Anna Klafkowska</h3>
       </div>
       <div class="bg-video">
-        <video class="bg-video__content" autoplay muted loop>
-          <source src="/img/Dog Looks into Camera.mp4" type="video/mp4" />
+        <video class="bg-video__content" autoplay loop>
+          <source src="/img/kotek.mp4" type="video/mp4" />
           <source src="img/Dog Looks into Camera.mp4" type="video/webm" />
           Your browser is not supported!
         </video>
@@ -62,7 +88,7 @@
         </div>
       </div>
     </div> -->
-    <div class="container">
+    <div class="container" id="service">
       <h3 class="heading-3 features__title">zakres usług</h3>
       <section class="features">
         <div class="feature">
@@ -127,18 +153,201 @@
         </div>
       </section>
     </div>
-    <h2 class="heading-2">Nasze specjalistki</h2>
+    <h2 id="specialists" class="heading-2">Nasze specjalistki</h2>
     <section class="specialists">
       <div class="spec">
         <fig class="spec__img"><img src="./img/wenturka.jpg" alt="" /></fig>
         <div class="spec__desc">
-          <p>pani doktor weterynarz</p>
+          <p>lek. wet. Anna Klafkowska</p>
         </div>
       </div>
       <div class="spec">
         <div class="spec__img"><img src="./img/wenturka.jpg" alt="" /></div>
-        <div class="spec__desc">opis</div>
+        <div class="spec__desc">lek. wet. Paulina Szymkowiak</div>
       </div>
     </section>
+
+    <section class="gallery" id="gallery">
+      <figure class="gallery__item gallery__item--1">
+        <img src="./img/wenturka.jpg" alt="wenturka" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--2">
+        <img src="./img/wenturka.jpg" alt="wenturka" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--3">
+        <img src="./img/wenturka.jpg" alt="wenturka" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--4">
+        <img src="./img/wenturka.jpg" alt="wenturka" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--5">
+        <img src="./img/wenturka.jpg" alt="wenturka" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--6">
+        <img src="./img/wenturka.jpg" alt="wenturka" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--7">
+        <img src="./img/wenturka.jpg" alt="wenturka" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--8">
+        <img src="./img/wenturka.jpg" alt="wenturka" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--9">
+        <img src="./img/wenturka.jpg" alt="wenturka" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--10">
+        <img src="./img/wenturka.jpg" alt="wenturka" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--11">
+        <img src="./img/wenturka.jpg" alt="wenturka" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--12">
+        <img src="./img/wenturka.jpg" alt="wenturka" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--13">
+        <img src="./img/wenturka.jpg" alt="wenturka" class="gallery__img" />
+      </figure>
+      <figure class="gallery__item gallery__item--14">
+        <img src="./img/wenturka.jpg" alt="wenturka" class="gallery__img" />
+      </figure>
+    </section>
+
+    <section class="openingHours" id="openingHours">
+      <h3 class="heading-2">Godziny Otwarcia</h3>
+      <p>Poniedziałek – Piątek 12:00 do 19:00</p>
+      <p>Sobota 10:00 do 12:00</p>
+    </section>
+    <section class="contact" id="contact">
+      <h3 class="heading-2">Kontakt</h3>
+      <h2 class="heading-3">Adres</h2>
+      <p>ul. Hetmańska 6 60-253 Poznań</p>
+      <h2 class="heading-3">Telefon</h2>
+      <p>+48 510 062 584</p>
+      <h2 class="heading-3">Email</h2>
+      <p>gabinetbonawentura@annaklafkowska.pl</p>
+      <p>gabinetbonawentura@gmail.com</p>
+      <br />
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#service">Usługi</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#specialists">Specjalistki</a>
+        </li>
+
+        <li class="footer__item">
+          <a class="footer__link" href="#openingHours">Godziny otwarcia</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#gallery">Galeria</a>
+        </li>
+      </ul>
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a class="footer__link twitter-link" target="_blank">BONAWENTURA</a>.
+      </p>
+    </footer>
+
+    <!-- <section class="information">
+      <div class="information__types">
+        <a
+          data-type="1"
+          href=""
+          class="information__type information__type--active information__type--1"
+          >KONSULATACJE</a
+        >
+        <a data-type="2" href="" class="information__type information__type--2"
+          >LOKALIZACJA</a
+        >
+        <a data-type="3" href="" class="information__type information__type--3"
+          >GODZINY OTWARCIA</a
+        >
+      </div>
+      <div class="information__content">
+        <h2>content</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste quis
+          natus, error repudiandae, odit minus praesentium nemo cum asperiores
+          minima similique illo dicta veritatis ea vel et recusandae adipisci
+          optio?
+        </p>
+      </div>
+      <div class="information__content hidden">
+        <h2>content</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste quis
+          natus, error repudiandae, odit minus praesentium nemo cum asperiores
+          minima similique illo dicta veritatis ea vel et recusandae adipisci
+          optio?
+        </p>
+      </div>
+      <div class="information__content hidden">
+        <h2>content</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste quis
+          natus, error repudiandae, odit minus praesentium nemo cum asperiores
+          minima similique illo dicta veritatis ea vel et recusandae adipisci
+          optio?
+        </p>
+      </div>
+    </section> -->
+
+    <script>
+      // VARIABLES
+      const informationTypes = document.querySelectorAll(".information__type");
+      const informationTypesContainer = document.querySelectorAll(
+        ".information__types"
+      );
+      const surp = document.querySelector("#surp");
+
+      // EVENT LISTENERS
+
+      // smooth scrolling
+      document
+        .querySelector(".nav__links")
+        .addEventListener("click", function (e) {
+          e.preventDefault();
+
+          // Matching strategy
+          if (e.target.classList.contains("nav__link")) {
+            const id = e.target.getAttribute("href");
+            document.querySelector(id).scrollIntoView({ behavior: "smooth" });
+          }
+        });
+
+      document
+        .querySelector(".footer__nav")
+        .addEventListener("click", function (e) {
+          e.preventDefault();
+
+          // Matching strategy
+          if (e.target.classList.contains("footer__link")) {
+            const id = e.target.getAttribute("href");
+            document.querySelector(id).scrollIntoView({ behavior: "smooth" });
+          }
+        });
+
+      // // type change
+      // informationTypesContainer.addEventListener("click", function (e) {
+      //   const clicked = e.target.closest(".operations__tab");
+      //   // Guard clause
+      //   if (!clicked) return;
+
+      //   // Remove active classes
+      //   informationTypes.forEach((t) =>
+      //     t.classList.remove("information__tab--active")
+      //   );
+      //   clicked.classList.add("information__type--active");
+
+      //   // Activate content area
+
+      //   document
+      //     .querySelector(`.information__type--${clicked.dataset.type}`)
+      //     .classList.add("information__type--active");
+      // });
+    </script>
   </body>
 </html>
