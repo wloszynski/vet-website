@@ -60,3 +60,16 @@
   background-color: var(--color-primary-darker);
   color: #333;
 }
+
+.fb-icon {
+  position: fixed;
+  top: 1.7rem;
+  right: 0;
+
+  color: black;
+  z-index: 1000;
+
+  height: 6vh;
+  padding: 0 6rem;
+  opacity: 0.8;
+}
