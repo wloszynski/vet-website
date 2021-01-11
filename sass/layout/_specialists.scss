@@ -1,10 +1,18 @@
 .specialists {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
   flex-direction: row;
   margin-top: 2rem;
 
-  @include respond(tab-por) {
+  @include respond(tab-port) {
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
   }
 }
 
