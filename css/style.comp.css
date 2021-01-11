@@ -344,8 +344,18 @@ body {
 
 .specialists {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
   flex-direction: row;
   margin-top: 2rem; }
+  @media only screen and (max-width: 56.25em) {
+    .specialists {
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center; } }
 
 .spec {
   margin: 0 auto;
